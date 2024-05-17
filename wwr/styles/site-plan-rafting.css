@@ -9,7 +9,8 @@ Fonts are separated by a & */
   --primary-color: #38618C   ;
   --secondary-color: #774E24 ;
   --accent1-color: #1A936F;
-  --accent2-color: #DBE4EE;
+  --accent2-color: #B8D4E3;
+  --accent3-color: #214E34;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Sedan SC";
@@ -21,7 +22,7 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #774E24; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #DBE4EE;
+  --nav-link-color: #B8D4E3;
   --nav-background-color: #1A936F;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
