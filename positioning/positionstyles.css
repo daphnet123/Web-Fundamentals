@@ -61,7 +61,7 @@
   background-color: gold; 
   z-index: 3;
   margin-left: 0px;
-  margin-top: 0px;
+  margin-bottom: 0px;
 } 
 .blue2 {
   width: 50px; 
@@ -69,7 +69,7 @@
   background-color: blue;
   z-index: 4; 
   margin-left: -25px;
-  margin-top: -25px;
+  margin-bottom: -25px;
 } 
 /* Activity 3 styles */ 
 .content3 {
