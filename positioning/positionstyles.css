@@ -144,36 +144,29 @@
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
   width: 100%;
+  font-size: small;
 }
 .red5 { 
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
-  margin: 10px;
-  float: left;
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 150px; 
+  height: 150px; 
   background-color: green; 
-  margin: 10px;
   float: left;
-
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 255px; 
   background-color: gold; 
-  margin: 10px;
-  float: left;
-
 } 
 .blue5 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
-  margin: 10px;
-  float: left;
+  margin-top: 0px;
 } 
 /* Activity 6 styles */ 
 .content6 {
