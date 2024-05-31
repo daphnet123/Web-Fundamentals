@@ -39,27 +39,34 @@
   grid-template-columns: 50px 50px 50px 50px 50px;
 }
 .red2 {
-  width: 100px; 
-  height: 100px; 
+  width: 50px; 
+  height: 50px; 
   background-color: red; 
+  z-index: 2;
+  position: absolute;
   
 } 
 .green2 { 
-  width: 100px; 
-  height: 100px; 
+  width: 50px; 
+  height: 50px; 
   background-color: green; 
-  margin-bottom: -50px;
+  margin-left: 25px;
+  margin-top: 25px;
 
 } 
 .yellow2 {
-  width: 100px; 
-  height: 100px; 
+  width: 50px; 
+  height: 50px; 
   background-color: gold; 
+  margin-left: 25px;
+  margin-top: 25px;
 } 
 .blue2 {
-  width: 100px; 
-  height: 100px; 
+  width: 50px; 
+  height: 50px; 
   background-color: blue; 
+  margin-left: 25px;
+  margin-top: 25px;
 } 
 /* Activity 3 styles */ 
 .content3 {
