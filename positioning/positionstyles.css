@@ -171,26 +171,40 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
+  width: 400px; 
+  height: 200px; 
   background-color: red; 
+  z-index: 1;
+  grid-column: span 4;
+  grid-row: span 2;
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
+  z-index: 3;
+  grid-column: span 2;
+  grid-row: span 2;
 } 
 .yellow6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 400px; 
   background-color: gold; 
+  z-index: 3;
+  grid-column: span 2;
+  grid-row: span 4;
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
+  width: 400px; 
+  height: 400px; 
+  background-color: blue;
+  z-index: 2; 
+  grid-column: span 4;
+  grid-row: span 4;
 } 
 
 
