@@ -37,9 +37,6 @@
   /* This is the parent of the activity 2 boxes. */
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
-  position: relative;
-  width: 250px;
-  height: 250px;
 }
 .red2 {
   width: 100px; 
@@ -49,18 +46,18 @@
 } 
 .green2 { 
   width: 100px; 
-  height: 100px; 
+  height: -100px; 
   background-color: green; 
 
 } 
 .yellow2 {
   width: 100px; 
-  height: 100px; 
+  height: -100px; 
   background-color: gold; 
 } 
 .blue2 {
   width: 100px; 
-  height: 100px; 
+  height: -100px; 
   background-color: blue; 
 } 
 /* Activity 3 styles */ 
