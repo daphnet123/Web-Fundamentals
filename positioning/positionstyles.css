@@ -37,39 +37,35 @@
   /* This is the parent of the activity 2 boxes. */
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  z-index: 1;
-  position: absolute;
-  
+  grid-column: 1/3;
+  grid-row: 1/3;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  z-index: 2;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: absolute;
+  grid-column: 2/4;
+  grid-row: 2/4
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  z-index: 3;
-  margin-left: 100px;
-  margin-top: 100px;
+  grid-column: 3/5;
+  grid-row: 3/5;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue;
-  z-index: 4; 
-  margin-left: 100px;
-  margin-top: 150px;
+  grid-column: 4/6;
+  grid-row: 4/6;
 } 
 /* Activity 3 styles */ 
 .content3 {
