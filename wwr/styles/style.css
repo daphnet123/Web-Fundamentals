@@ -32,7 +32,7 @@ nav a:hover {
 }
 #hero-msg {
     text-align: center;
-    background-image: url('images/hero-bg.jpg'); /* Example background image */
+    background-image: url('images/hero-bg.jpg'); 
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -81,50 +81,4 @@ main h2, main h3, main h4 {
     border: 10px solid black;
     box-shadow: 5px 5px 10px #6f7364;
     transition: transform 0.5s;
-}
-#gallery img:hover {
-    opacity: 0.6;
-    transform: scale(1.1);
-}
-footer {
-    background-color: white;
-    color: #774E24;
-    padding: 25px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-footer a {
-    color: #774E24;
-    text-decoration: none;
-}
-footer a:hover {
-    color: black;
-}
-footer p {
-    font-size: 1.2em;
-}
-footer .social img {
-    width: 30px;
-    margin-left: 10px;
-}
-@media screen and (max-width: 900px) {
-    nav, footer {
-        flex-direction: column;
-        text-align: center;
-    }
-    nav a {
-        padding: 10px 0;
-    }
-    footer p {
-        margin: 10px 0;
-    }
-    .social {
-        margin-top: 10px;
-    }
-    #gallery img {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
 }
