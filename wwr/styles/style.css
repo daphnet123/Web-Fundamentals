@@ -179,6 +179,27 @@ h2 {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+#gallery img {
+    width: calc(33% - 40px); /* Three images with 20px gap on each side */
+    aspect-ratio: 1 / 1; /* Maintain a square shape */
+    box-sizing: border-box;
+    border: 10px solid black;
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform 0.5s;
+}
+
+#gallery img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
