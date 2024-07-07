@@ -41,15 +41,15 @@ nav a:hover {
 /* Main Content Styles */
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
     padding: 20px 0;
 }
 
 .collage-card {
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px #c2847a(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 20px;
     text-align: center;
