@@ -5,13 +5,11 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
-
 #content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -20,29 +18,24 @@ header {
     border-bottom: 2px solid #ddd;
     background-color: #ffffff;
 }
-
 .logo {
-    height: 50px;
+    height: 75px;
 }
-
 nav a {
     margin: 0 15px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
-
 nav a:hover {
     color: #387780;
 }
-
 main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px 0;
 }
-
 .collage-card {
     background-color: #ffffff;
     border-radius: 8px;
@@ -52,182 +45,48 @@ main {
     text-align: center;
     width: 48%;
 }
-
 .collage-img {
     width: 100%;
     height: auto;
     border-bottom: 2px solid #ddd;
 }
-
 .collage-card h2 {
     color: #38618c;
     margin-top: 20px;
 }
-
 .collage-card p {
     text-align: left;
     line-height: 1.6;
 }
-
 .home-grid {
     width: 48%;
 }
-
 footer {
     padding: 20px 0;
     border-top: 2px solid #ddd;
     text-align: center;
     background-color: #ffffff;
 }
-
 footer p {
     margin: 5px 0;
 }
-
 footer a {
     color: #333;
     text-decoration: none;
     margin: 0 10px;
 }
-
 footer a:hover {
     color: #387780;
 }
-
 .socials {
     margin-top: 10px;
 }
-
 .socials a {
     margin: 0 10px;
 }
-
 socials img {
-    width: 24px;
-    height: 24px;
-}
-
-:root {
-    --primary-color: #38618c;
-    --secondary-color: #c2847a;
-    --accent1-color: #cbc3e3;
-    --accent2-color: #387780;
-}
-
-body {
-    background-color: var(--accent1-color);
-}
-
-header {
-    background-color: var(--primary-color);
-    color: #ffffff;
-}
-
-nav a {
-    color: #ffffff;
-}
-
-nav a:hover {
-    color: var(--accent2-color);
-}
-
-footer {
-    background-color: var(--primary-color);
-    color: #ffffff;
-}
-
-footer a {
-    color: #ffffff;
-}
-
-footer a:hover {
-    color: var(--accent2-color);
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
-#content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 2px solid #ddd;
-    background-color: #ffffff;
-}
-.logo {
-    height: 50px;
-}
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-nav a:hover {
-    color: #387780;
-}
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px 0;
-}
-.collage-card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 20px;
-    text-align: center;
-}
-.collage-img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #ddd;
-}
-.collage-card h2 {
-    color: #38618c;
-    margin-top: 20px;
-}
-.collage-card p {
-    text-align: left;
-    line-height: 1.6;
-}
-footer {
-    padding: 20px 0;
-    border-top: 2px solid #ddd;
-    text-align: center;
-    background-color: #ffffff;
-}
-footer p {
-    margin: 5px 0;
-}
-footer a {
-    color: #333;
-    text-decoration: none;
-    margin: 0 10px;
-}
-footer a:hover {
-    color: #387780;
-}
-.socials {
-    margin-top: 10px;
-}
-.socials a {
-    margin: 0 10px;
-}
-.socials img {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 }
 :root {
     --primary-color: #38618c;
