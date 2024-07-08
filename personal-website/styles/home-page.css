@@ -47,7 +47,7 @@ header {
     color: white;
 }
 
-.logo {
+header .logo {
     height: 150px; 
 }
 
