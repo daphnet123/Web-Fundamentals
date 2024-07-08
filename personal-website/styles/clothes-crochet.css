@@ -67,11 +67,9 @@ nav a:hover {
 
 /* Main Content Styles */
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .collage-card {
@@ -83,27 +81,56 @@ main {
     text-align: center;
 }
 
-.collage-img-left {
+.clothes-collage-img {
     float: left;
-    width: 45%;
+    width: 25%;
+    height: 15%;
     margin-right: 5%;
 }
 
-.collage-img-right {
+.crochet-collage-img {
     float: right;
-    width: 45%;
+    width: 25%;
+    height: 15%;
     margin-left: 5%;
 }
 
-.collage-card h2 {
+.collage-card-txt h3 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10%;
     color: #38618c;
     margin-top: 20px;
+    float: left;
 }
 
-.collage-card p {
-    text-align: left;
+.collage-card-txt p1 {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10%;
+    color: #38618c;
+    margin-top: 20px;
     line-height: 1.6;
-    clear: both;
+    float: left;
+}
+
+.collage-card-txt h4 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10%;
+    color: #38618c;
+    margin-top: 20px;
+    float: right;
+}
+
+.collage-card-txt p2 {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10%;
+    color: #38618c;
+    margin-top: 20px;
+    line-height: 1.6;
+    float: right;
 }
 
 .home-grid {
