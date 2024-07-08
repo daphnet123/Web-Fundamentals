@@ -1,4 +1,4 @@
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -36,8 +36,8 @@ header {
 }
   
 .pill-nav a:hover {
-    background-color: #ddd;
-    color: #38618c;
+    background-color: #C2847A;
+    color: white;
 }
   
 .pill-nav a.active {
@@ -52,13 +52,16 @@ header {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #333;
+    color: #38618c;
     font-weight: bold;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #ddd;
-    color: #38618c;
+    background-color: #C2847A;
+    color: white;
 }
 
 /* Main Content Styles */
@@ -72,7 +75,7 @@ main {
 .collage-card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 8px #c2847a(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 20px;
     text-align: center;
@@ -134,7 +137,7 @@ footer a:hover {
     margin: 0 10px;
 }
 
-.socials img {
+socials img {
     width: 24px;
     height: 24px;
 }
@@ -155,14 +158,6 @@ body {
 header {
     background-color: var(--primary-color);
     color: #ffffff;
-}
-
-nav a {
-    color: #ffffff;
-}
-
-nav a:hover {
-    color: var(--accent2-color);
 }
 
 footer {
