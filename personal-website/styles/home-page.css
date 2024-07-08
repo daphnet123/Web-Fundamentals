@@ -3,8 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--accent1-color);
+    background-color: #f9f9f9;
     color: #333;
+    background-color: var(--accent1-color);
 }
 
 #content {
@@ -21,6 +22,7 @@ header {
     padding: 10px 0;
     border-bottom: 2px solid #ddd;
     background-color: white;
+    color: #ffffff;
 }
 
 .pill-nav a {
@@ -45,8 +47,8 @@ header {
     color: white;
 }
 
-header .logo {
-    height: 200px;
+.logo {
+    height: 100px; /* Increase the height here */
 }
 
 nav a {
@@ -111,7 +113,8 @@ footer {
     align-items: center;
     padding: 20px 0;
     border-top: 2px solid #ddd;
-    background-color: white;
+    text-align: center;
+    background-color: #ffffff;
     color: #38618c;
 }
 
@@ -120,7 +123,7 @@ footer p {
 }
 
 footer a {
-    color: #38618c;
+    color: #333;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -134,11 +137,11 @@ footer a:hover {
     gap: 10px;
 }
 
-socials a {
+.socials a {
     margin: 0 10px;
 }
 
-socials img {
+.socials img {
     width: 24px;
     height: 24px;
 }
@@ -149,10 +152,4 @@ socials img {
     --secondary-color: #c2847a;
     --accent1-color: #cbc3e3;
     --accent2-color: #387780;
-}
-
-/* Social Icons Specific Styles */
-.socials img {
-    width: 24px;
-    height: 24px;
 }
