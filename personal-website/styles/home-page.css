@@ -108,14 +108,14 @@ main {
 /* Footer Styles */
 footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 10px 0; /* Reduced padding */
+    padding: 20px 0; 
     border-top: 2px solid #ddd;
     text-align: center;
-    background-color: #38618c;
-    color: white;
-    font-size: 0.9em; /* Reduced font size */
+    background-color: white;
+    color: #38618c;
     font-weight: bold;
 }
 
@@ -126,7 +126,7 @@ footer p {
 footer a {
     text-decoration: none;
     margin: 0 10px;
-    color: #ffffff;
+    color: #38618c;
 }
 
 footer a:hover {
