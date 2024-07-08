@@ -139,12 +139,12 @@ footer a:hover {
 }
 
 .socials a {
-    margin: 0 5px; /* Reduced margin */
+    margin: 0 10px; 
 }
 
 .socials img {
-    width: 20px; /* Reduced size */
-    height: 20px; /* Reduced size */
+    width: 24px; 
+    height: 24px; 
 }
 
 /* Color Palette */
