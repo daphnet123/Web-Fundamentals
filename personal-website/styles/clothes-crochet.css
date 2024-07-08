@@ -160,3 +160,34 @@ footer a:hover {
     --accent1-color: #cbc3e3;
     --accent2-color: #387780;
 }
+
+/* Additional Styles for Wireframe Layout */
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.collage-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collage-img {
+    width: 40%;
+}
+
+.collage-text {
+    width: 55%;
+}
+
+@media (max-width: 768px) {
+    .collage-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .collage-img, .collage-text {
+        width: 100%;
+    }
+}
