@@ -3,9 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
     background-color: var(--accent1-color);
+    color: #333;
 }
 
 #content {
@@ -69,7 +68,7 @@ nav a:hover {
 /* Main Content Styles */
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px 0;
 }
@@ -83,10 +82,16 @@ main {
     text-align: center;
 }
 
-.collage-img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #ddd;
+.collage-img-left {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.collage-img-right {
+    float: right;
+    width: 45%;
+    margin-left: 5%;
 }
 
 .collage-card h2 {
@@ -97,6 +102,7 @@ main {
 .collage-card p {
     text-align: left;
     line-height: 1.6;
+    clear: both;
 }
 
 .home-grid {
