@@ -48,7 +48,7 @@ header {
 }
 
 .logo {
-    height: 100px; /* Increase the height here */
+    height: 100px; 
 }
 
 nav a {
@@ -108,14 +108,14 @@ main {
 /* Footer Styles */
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0; /* Reduced padding */
     border-top: 2px solid #ddd;
     text-align: center;
-    background-color: #ffffff;
-    color: #38618c;
+    background-color: #38618c;
+    color: white;
+    font-size: 0.9em; /* Reduced font size */
 }
 
 footer p {
@@ -123,9 +123,9 @@ footer p {
 }
 
 footer a {
-    color: #333;
     text-decoration: none;
     margin: 0 10px;
+    color: #ffffff;
 }
 
 footer a:hover {
@@ -138,12 +138,12 @@ footer a:hover {
 }
 
 .socials a {
-    margin: 0 10px;
+    margin: 0 5px; /* Reduced margin */
 }
 
 .socials img {
-    width: 24px;
-    height: 24px;
+    width: 20px; /* Reduced size */
+    height: 20px; /* Reduced size */
 }
 
 /* Color Palette */
