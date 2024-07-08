@@ -134,11 +134,11 @@ footer a:hover {
     gap: 10px;
 }
 
-socials a {
+.socials a {
     margin: 0 10px;
 }
 
-socials img {
+.socials img {
     width: 24px;
     height: 24px;
 }
