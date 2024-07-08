@@ -116,6 +116,7 @@ footer {
     background-color: #38618c;
     color: white;
     font-size: 0.9em; /* Reduced font size */
+    font-weight: bold;
 }
 
 footer p {
