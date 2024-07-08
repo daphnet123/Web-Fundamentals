@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    background-color: var(--accent1-color);
 }
 
 #content {
@@ -20,7 +21,8 @@ header {
     align-items: center;
     padding: 10px 0;
     border-bottom: 2px solid #ddd;
-    background-color: #ffffff;
+    background-color: white;
+    color: #ffffff;
 }
 
 .pill-nav a {
@@ -36,8 +38,8 @@ header {
 }
   
 .pill-nav a:hover {
-    background-color: #C2847A;
-    color: white;
+    background-color: #ddd;
+    color: #c2847a;
 }
   
 .pill-nav a.active {
@@ -111,7 +113,8 @@ footer {
     padding: 20px 0;
     border-top: 2px solid #ddd;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #38618c;
+    color: white;
 }
 
 footer p {
@@ -122,6 +125,7 @@ footer a {
     color: #333;
     text-decoration: none;
     margin: 0 10px;
+    color: #ffffff;
 }
 
 footer a:hover {
@@ -148,27 +152,4 @@ socials img {
     --secondary-color: #c2847a;
     --accent1-color: #cbc3e3;
     --accent2-color: #387780;
-}
-
-/* Applying Color Palette */
-body {
-    background-color: var(--accent1-color);
-}
-
-header {
-    background-color: var(--primary-color);
-    color: #ffffff;
-}
-
-footer {
-    background-color: var(--primary-color);
-    color: #ffffff;
-}
-
-footer a {
-    color: #ffffff;
-}
-
-footer a:hover {
-    color: var(--accent2-color);
 }
