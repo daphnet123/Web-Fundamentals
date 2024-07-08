@@ -134,11 +134,11 @@ footer a:hover {
     gap: 10px;
 }
 
-.socials a {
+socials a {
     margin: 0 10px;
 }
 
-.socials img {
+socials img {
     width: 24px;
     height: 24px;
 }
@@ -149,4 +149,10 @@ footer a:hover {
     --secondary-color: #c2847a;
     --accent1-color: #cbc3e3;
     --accent2-color: #387780;
+}
+
+/* Social Icons Specific Styles */
+.socials img {
+    width: 24px;
+    height: 24px;
 }
