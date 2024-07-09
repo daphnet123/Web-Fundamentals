@@ -154,3 +154,14 @@ footer a:hover {
     --accent1-color: #cbc3e3;
     --accent2-color: #387780;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .collage-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .clothes-collage-img, .crochet-collage-img, .collage-card-txt {
+        width: 100%;
+    }
+}
