@@ -94,6 +94,7 @@ main {
 .collage-card-txt h3, .collage-card-txt h4 {
     font-size: 24px;
     color: #38618c;
+    font-weight: bold;
 }
 
 .clothes-list, .crochet-list {
