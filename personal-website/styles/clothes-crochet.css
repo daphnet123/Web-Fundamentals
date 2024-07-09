@@ -67,90 +67,40 @@ nav a:hover {
 
 /* Main Content Styles */
 main {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 40px;
-    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
 }
 
 .collage-card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex: 1;
+    margin: 10px;
+}
+
+.clothes-collage-img,.crochet-collage-img {
     width: 100%;
-    max-width: 1000px;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #C2847A;
+    border-radius: 4px;
 }
 
-.clothes-collage-img {
-    width: 40%;
-    height: auto;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    align-items: center;
-}
-
-.crochet-collage-img {
-    width:40%;
-    height: auto;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    align-items: center;
-}
 .collage-card-txt {
     width: 55%;
 }
 
-.collage-card-txt h3 {
-    font-size: 20px;
+.collage-card-txt h3, .collage-card-txt h4 {
+    font-size: 24px;
     color: #38618c;
-    margin-top: 0;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    text-align: center
 }
 
-.collage-card-txt h4 {
-    font-size: 20px;
-    color: #38618c;
-    margin-top: 0;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    text-align: center;
-}
-
-.collage-card-txt p1 {
+.collage-card-txt p1, .collage-card-txt p2 {
     font-size: 16px;
     color: #38618c;
     line-height: 1.6;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    text-align: left;
-}
-
-.collage-card-txt p2 {
-    font-size: 16px;
-    color: #38618c;
-    line-height: 1.6;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    text-align: left;
 }
 
 .home-grid {
