@@ -145,3 +145,159 @@ socials img {
     --accent1-color: #cbc3e3;
     --accent2-color: #387780;
 }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    background-color: var(--accent1-color);
+}
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+    background-color: white;
+}
+
+.pill-nav a {
+    display: inline-block;
+    color: #38618c;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.pill-nav a:hover {
+    background-color: #ddd;
+    color: #c2847a;
+}
+
+.pill-nav a.active {
+    background-color: #C2847A;
+    color: white;
+}
+
+header .logo {
+    height: 150px; 
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #38618c;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #C2847A;
+    color: white;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+.faq-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.faq-section h3 {
+    color: #38618c;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h4 {
+    color: #38618c;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Image Styles */
+.faq-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+    border-top: 2px solid #ddd;
+    text-align: center;
+    background-color: white;
+    color: #38618c;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #38618c;
+}
+
+footer a:hover {
+    color: #387780;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials a {
+    margin: 0 10px; 
+}
+
+.socials img {
+    width: 24px; 
+    height: 24px; 
+}
+
+/* Color Palette */
+:root {
+    --primary-color: #38618c;
+    --secondary-color: #c2847a;
+    --accent1-color: #cbc3e3;
+    --accent2-color: #387780;
+}
