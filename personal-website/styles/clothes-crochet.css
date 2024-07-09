@@ -101,6 +101,8 @@ main {
     font-size: 16px;
     color: #38618c;
     line-height: 1.6;
+    list-style-type: none;
+    padding: 0;
 }
 
 .home-grid {
