@@ -70,6 +70,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .collage-card {
@@ -78,59 +80,32 @@ main {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
 }
 
-.clothes-collage-img {
-    float: left;
-    width: 25%;
-    height: 15%;
-    margin-right: 5%;
+.clothes-collage-img, .crochet-collage-img {
+    width: 40%;
+    height: auto;
 }
 
-.crochet-collage-img {
-    float: right;
-    width: 25%;
-    height: 15%;
-    margin-left: 5%;
+.collage-card-txt {
+    width: 55%;
 }
 
-.collage-card-txt h3 {
+.collage-card-txt h3, .collage-card-txt h4 {
     font-size: 20px;
-    padding-left: 20px;
-    padding-top: 10%;
     color: #38618c;
-    margin-top: 20px;
-    float: left;
+    margin-top: 0;
 }
 
-.collage-card-txt p1 {
+.collage-card-txt p1, .collage-card-txt p2 {
     font-size: 16px;
-    padding-left: 20px;
-    padding-top: 10%;
     color: #38618c;
-    margin-top: 20px;
     line-height: 1.6;
-    float: left;
-}
-
-.collage-card-txt h4 {
-    font-size: 20px;
-    padding-left: 20px;
-    padding-top: 10%;
-    color: #38618c;
-    margin-top: 20px;
-    float: right;
-}
-
-.collage-card-txt p2 {
-    font-size: 16px;
-    padding-left: 20px;
-    padding-top: 10%;
-    color: #38618c;
-    margin-top: 20px;
-    line-height: 1.6;
-    float: right;
 }
 
 .home-grid {
@@ -189,33 +164,13 @@ footer a:hover {
     --accent2-color: #387780;
 }
 
-/* Additional Styles for Wireframe Layout */
-section {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.collage-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.collage-img {
-    width: 40%;
-}
-
-.collage-text {
-    width: 55%;
-}
-
+/* Responsive Design */
 @media (max-width: 768px) {
     .collage-card {
         flex-direction: column;
         text-align: center;
     }
-    .collage-img, .collage-text {
+    .clothes-collage-img, .crochet-collage-img, .collage-card-txt {
         width: 100%;
     }
 }
