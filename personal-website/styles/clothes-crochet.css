@@ -21,7 +21,6 @@ header {
     padding: 10px 0;
     border-bottom: 2px solid #ddd;
     background-color: white;
-    color: #ffffff;
 }
 
 .pill-nav a {
@@ -80,7 +79,7 @@ main {
     margin: 10px;
 }
 
-.clothes-collage-img,.crochet-collage-img {
+.clothes-collage-img, .crochet-collage-img {
     width: 100%;
     height: auto;
     margin-top: 10px;
@@ -97,7 +96,7 @@ main {
     color: #38618c;
 }
 
-.collage-card-txt p1, .collage-card-txt p2 {
+.clothes-list, .crochet-list {
     font-size: 16px;
     color: #38618c;
     line-height: 1.6;
@@ -105,10 +104,8 @@ main {
     padding: 0;
 }
 
-.home-grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.clothes-list li, .crochet-list li {
+    margin-bottom: 10px;
 }
 
 /* Footer Styles */
