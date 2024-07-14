@@ -111,6 +111,24 @@
             border-radius: 8px;
         }
 
+        /* Feedback Styles */
+        #feedback {
+            display: none;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            color: #38618c;
+            font-weight: bold;
+            text-align: center;
+            width: 50%;
+        }
+
+        .moveDown #content {
+            margin-top: 50px;
+        }
+
         /* Footer Styles */
         footer {
             display: flex;
@@ -154,17 +172,6 @@
             height: 24px;
         }
 
-        #feedback {
-            background-color: antiquewhite;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            padding: .5em;
-            /* make this element invisible until we are ready for it */
-            display: none;      
-        }
-        
         /* Color Palette */
         :root {
             --primary-color: #38618c;
